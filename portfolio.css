@@ -1,0 +1,184 @@
+html {
+    font-family: 'Work Sans', sans-serif;
+}
+aside {
+    background-color: #bdd4d3;
+    min-height: 900px;
+    padding: 10px;
+    position: fixed;
+    width: 200px;
+}
+section {
+    background-color: #efefef;
+    border-bottom: 5px solid #2b3a42;
+    border-left: 5px solid #2b3a42;
+    border-top: 5px solid #2b3a42;
+    margin-left: 220px;
+    min-height: 1300px;
+    padding: 30px;
+    width: auto;
+}
+h1 {
+    border-bottom: 5px solid #2b3a42;
+    font-size: 30px;
+    font-weight: bold;
+    padding: inherit;
+    text-align: center;
+}
+h1 p {
+    font-size: 14px;
+}
+h1 a {
+    margin: 5px;
+}
+#headshot {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: 4px solid #ff530d;
+    border-radius: 60%;
+}
+#MainInfo {
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: inherit;
+    border-bottom: 5px solid #2b3a42;
+}
+#MainInfo ul {
+    text-align: center;
+}
+#MainInfo li {
+    display: inline-block;
+    margin: 0 10px
+}
+#Categories {
+    line-height: 1.2em;
+    margin-top: 10px;
+    padding: inherit;
+}
+#Categories h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#Categories ul {
+    color: #ff530d;
+    font-size: 14px;
+}
+#Copyright {
+    font-size: 10px;
+    margin: auto;
+    padding: inherit;
+    text-align: center;
+}
+#search input {
+    width: 130px;
+    border: 1px solid #ff530d;
+}
+#search input[type=text]:focus {
+    width: 90%;
+}
+figure {
+    display: inline-block;
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+.thumbnail {
+    border-radius: 10px;
+    width: 200px;
+    max-width: 100%;
+    height: 200px;
+    max-height: 100%;
+    margin: 10px;
+}
+figcaption {
+    font-weight: bold;
+}
+article {
+    font-size: 14px;
+    line-height: 1.5em;
+    display: inline-block;
+    float: left;
+    width: 60%;
+    margin: 20px;
+}
+form {
+    line-height: 1.5em;
+    display: inline-block;
+    float: left;
+    margin: 20px;
+}
+form h4,
+article h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input {
+    font-size: 14px;
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    radius: 10%;
+}
+textarea {
+    font-size: 14px;
+    width: 100%;
+    height: 10em;
+    padding: 10px;
+    resize: none;
+    text-align: left;
+    outline: none;
+    radius: 10%;
+}
+input[type=button] {
+    float: right;
+    width: 20%;
+    margin: 4px 2px;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border: 2px solid #2b3a42;
+    background-color: #bdd4d3;
+}
+a:link {
+    color: black;
+}
+a:hover {
+    color: #ff530d;
+}
+a:visited {
+    color: #ff530d;
+}
+a:active {
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+  aside {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    box-sizing: border-box;
+  }
+  section {
+    position: absolute;
+    top: 550px;
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 5px solid #2b3a42;
+    margin-left;
+    box-sizing: border-box;
+  }
+  #Categories {
+    text-align: center;
+  }
+  #search input {
+    width: 82%;
+  }
+}
